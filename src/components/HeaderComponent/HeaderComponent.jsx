@@ -5,7 +5,7 @@ import { UserOutlined, CaretDownOutlined, ShoppingCartOutlined} from '@ant-desig
 import ButtonInputSearch from "../ButtonInputSearch/ButtonInputSearch";
 const HeaderComponent = () => {
   return (
-    <div>
+    <div style={{width: '100%', background: 'rgb(26,148,255)', display: 'flex', justifyContent: 'center'}}>
       <WrapperHeader>
         <Col span={5}>
           <WrapperTextHeader>SHOP ĐỘC LẠ</WrapperTextHeader>
@@ -17,9 +17,9 @@ const HeaderComponent = () => {
             placeholder="input search text"
             />
         </Col>
-        <Col span={6} style={{ display: 'flex', gap: '40px', alignItems: 'center'}}>
+        <Col span={7} style={{ display: 'flex', gap: '54px', alignItems: 'center'}}>
           <WrapperHeaderAccount>
-            <UserOutlined style={{ fontSize: '30px', color: '#fff'}}/>
+            <UserOutlined style={{ fontSize: '30px'}}/>
             <div>
               <WrapperTextHeaderSmall>Đăng nhập / Đăng ký</WrapperTextHeaderSmall>
               <div>
